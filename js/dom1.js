@@ -18,3 +18,6 @@ for(const li of liCollection){
     console.log(li);
     console.log(li.innerText);
 }
+
+const heading = document.getElementById('heading1');
+document.getElementById('dom_list');
