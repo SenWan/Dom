@@ -20,12 +20,17 @@ for(const li of liCollection){
 }
  */
 
-/* const heading = document.getElementById('heading1');
-document.getElementById('dom_list'); */
+const heading = document.getElementById('heading1');
+heading1.style.textAlign = 'center';
+heading.style.backgroundColor = 'blue';
+
+document.getElementById('dom_list').style.color = 'red';
 
 const someLi = document.querySelectorAll('.dom-container li');
 console.log(someLi);
 
 
 const singleli = document.querySelector('.dom-container li').innerText;
-console.log(singleli);
+
+first = document.getElementsByClassName('dom-container')[0].innerHTML;
+console.log(first);
